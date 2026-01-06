@@ -22,6 +22,7 @@ function ProductFilter({ onFilter }) {
         className="nearstore-filter__select"
         value={category}
         onChange={(e) => setCategory(e.target.value)}
+        
       >
         <option value="all">Todas las categorías</option>
         <option value="Audio">Audio</option>

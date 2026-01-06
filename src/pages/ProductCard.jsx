@@ -15,7 +15,7 @@ function ProductCard({ product, onAddToCart }) {
           {product.shortDescription}
         </p>
         <p className="nearstore-product-card__price">
-          {product.price.toFixed(2)} €
+          $ {product.price.toFixed(2)} 
         </p>
       </div>
       <div className="nearstore-product-card__actions">

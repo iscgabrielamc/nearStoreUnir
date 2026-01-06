@@ -10,7 +10,9 @@ export const products = [
       "Disfruta de tu música favorita con una cancelación de ruido activa y 24h de batería.",
     price: 79.99,
     image:
-      "https://via.placeholder.com/300x200?text=Auriculares+NearSound+Pro",
+      "img/audifonos.jpg",
+     imageDetail:
+      "../img/audifonos.jpg",
   },
   {
     id: 2,
@@ -21,7 +23,9 @@ export const products = [
     longDescription:
       "Controla tu ritmo cardíaco, pasos, sueño y recibe notificaciones en tu muñeca.",
     price: 129.99,
-    image: "https://via.placeholder.com/300x200?text=Smartwatch+NearWatch",
+    image: "img/smartwatch.jpg",
+    imageDetail:
+      "../img/smartwatch.jpg",
   },
   {
     id: 3,
@@ -32,6 +36,8 @@ export const products = [
     longDescription:
       "Switches de alta calidad, iluminación personalizable y diseño ergonómico.",
     price: 99.99,
-    image: "https://via.placeholder.com/300x200?text=Teclado+NearKeys",
+    image: "img/teclado.jpg",
+    imageDetail:
+      "../img/teclado.jpg",
   },
 ];

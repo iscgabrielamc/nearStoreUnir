@@ -4,10 +4,10 @@ function CartItem({ item, onRemove, onUpdateQuantity }) {
         <div className="nearstore-cart-item__info">
           <h3 className="nearstore-cart-item__name">{item.name}</h3>
           <p className="nearstore-cart-item__price">
-            {item.price.toFixed(2)} € x {item.quantity}
+           ${item.price.toFixed(2)} x {item.quantity}
           </p>
           <p className="nearstore-cart-item__subtotal">
-            Subtotal: {(item.price * item.quantity).toFixed(2)} €
+            Subtotal: ${(item.price * item.quantity).toFixed(2)} 
           </p>
         </div>
         <div className="nearstore-cart-item__actions">

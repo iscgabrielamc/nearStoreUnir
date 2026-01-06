@@ -16,7 +16,7 @@ function ProductDetailPage({ cart }) {
   return (
     <div className="nearstore-detail">
       <img
-        src={product.image}
+        src={product.imageDetail}
         alt={product.name}
         className="nearstore-detail__image"
       />
@@ -28,7 +28,7 @@ function ProductDetailPage({ cart }) {
           {product.longDescription}
         </p>
         <p className="nearstore-detail__price">
-          {product.price.toFixed(2)} €
+          ${product.price.toFixed(2)} 
         </p>
         <button
           className="nearstore-detail__button"

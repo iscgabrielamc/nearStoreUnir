@@ -39,7 +39,7 @@ function CartPage({ cart }) {
       {cart.cartItems.length > 0 && (
         <div className="nearstore-cart__summary">
           <p className="nearstore-cart__total">
-            Total: <strong>{cart.totalPrice} €</strong>
+            Total: <strong>$ {cart.totalPrice} </strong>
           </p>
           <button
             className="nearstore-cart__button"

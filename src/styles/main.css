@@ -80,13 +80,19 @@
     padding: 1rem;
     box-shadow: 0 10px 15px rgba(15, 23, 42, 0.08);
     display: flex;
+    width: 30%;
     flex-direction: column;
 }
 
+.nearstore-product-list{
+    display: flex;
+    justify-content: space-between;
+}
 .nearstore-product-card__image {
     width: 100%;
     border-radius: 0.5rem;
     margin-bottom: 0.75rem;
+    
 }
 
 /* Carrito */
@@ -111,4 +117,19 @@
     padding: 0.75rem;
     background: #111827;
     color: #9ca3af;
+}
+
+.nearstore-product-card__link{
+    font-size: 80%;
+    text-align: right;
+}
+
+
+.nearstore-product-card__actions{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nearstore-detail img{
+    max-height: 25vh;
 }
